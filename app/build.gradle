@@ -18,7 +18,11 @@ android {
     }
 
     buildTypes {
+        debug {
+            buildConfigField "int", "INSTALL_VERSION", "1"
+        }
         release {
+            buildConfigField "int", "INSTALL_VERSION", "1"
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

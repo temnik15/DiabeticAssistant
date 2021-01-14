@@ -1,5 +1,6 @@
 package ru.rosystem.diabeticassistant
 
+import android.content.res.Resources
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 
