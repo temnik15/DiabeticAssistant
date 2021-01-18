@@ -10,4 +10,5 @@
 
 
     <color name="launchScreen">#6B7FBF</color>
+    <color name="defaultTextColor">#6B7FBF</color>
 </resources>

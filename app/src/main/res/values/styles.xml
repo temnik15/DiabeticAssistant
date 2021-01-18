@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <style name="RadioBtn" parent="Theme.AppCompat.Light">
+        <item name="colorControlNormal">@color/defaultTextColor</item>
+        <item name="colorControlActivated">@color/defaultTextColor</item>
+    </style>
+    <style name="ToolBar" parent="@style/Widget.AppCompat.Toolbar">
+        <item name="android:background">@color/launchScreen</item>
+        <item name="titleTextColor">@color/white</item>
+    </style>
+    <style name="Btn" parent="Widget.MaterialComponents.Button">
+        <item name="colorPrimary">#C12121</item>
+    </style>
 </resources>
